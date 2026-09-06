@@ -52,31 +52,7 @@ npx playwright install --with-deps
 3. Environment & AI Configuration
 Configure your AI provider in ai.config.json:
 
-JSON
-{
-  "provider": "aiaura",
-  "providers": {
-    "aiaura": {
-      "baseURL": "[http://aiaura.me/api/v1](http://aiaura.me/api/v1)",
-      "apiKeyEnv": "AIAURA_API_KEY",
-      "model": "aura-default",
-      "temperature": 0.1
-    },
-    "openai": {
-      "baseURL": "[https://api.openai.com/v1](https://api.openai.com/v1)",
-      "apiKeyEnv": "OPENAI_API_KEY",
-      "model": "gpt-4o",
-      "temperature": 0.1
-    },
-    "google": {
-      "baseURL": "[https://generativelanguage.googleapis.com/v1beta](https://generativelanguage.googleapis.com/v1beta)",
-      "apiKeyEnv": "GEMINI_API_KEY",
-      "model": "gemini-1.5-pro",
-      "temperature": 0.1
-    }
-  }
-}
-Export the corresponding API key:
+
 
 Bash
 # For AIAura
