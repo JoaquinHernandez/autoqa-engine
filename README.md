@@ -54,39 +54,9 @@ Configure your AI provider in ai.config.json:
 
 
 
-Bash
-# For AIAura
-export AIAURA_API_KEY="your-key-here"
-
-# Or for OpenAI / Gemini
-export OPENAI_API_KEY="sk-..."
-export GEMINI_API_KEY="AIza..."
-4. Build & Run
-Bash
-# Compile TypeScript
-npm run build
-
-# Run a test against any web application
-npm start "[https://demo.playwright.dev/todomvc](https://demo.playwright.dev/todomvc)" "Create a task called 'Deploy to prod' and mark it completed."
-📄 License
-This project is licensed under the MIT License.
 
 
----
 
-### File 2: `archplan-ai/README.md`
-
-```markdown
-# 📐 ArchPlan AI Studio
-
-[![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF.svg)](https://vitejs.dev/)
-[![Three.js](https://img.shields.io/badge/Three.js-r170-black.svg)](https://threejs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-An AI-powered parametric 2D/3D architectural spatial engine designed for SME builders, residential contractors, and landscape architects.
-
----
 
 ## 📌 Architecture Overview
 
