@@ -37,22 +37,6 @@ autoqa-engine/
     ├── agent.ts         # Playwright browser loop and action dispatcher
     └── index.ts         # CLI entry point
 
-🚀 Quickstart
-1. Prerequisites
-Node.js: v20.x or higher
-
-npm: v9.x or higher
-
-2. Installation
-Bash
-git clone [https://github.com/](https://github.com/)<YOUR_GITHUB_USERNAME>/autoqa-engine.git
-cd autoqa-engine
-npm install
-npx playwright install --with-deps
-3. Environment & AI Configuration
-Configure your AI provider in ai.config.json:
-
-
 
 
 
