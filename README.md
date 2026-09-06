@@ -35,20 +35,4 @@ autoqa-engine/
 
 An autonomous, multi-provider AI software testing agent powered by **Playwright** and an adaptive LLM decision loop with self-healing DOM inspection.
 
----
 
-## 📌 Architecture Overview
-
-```mermaid
-graph TD
-    A[Natural Language Goal] --> B[AutoQA Agent Engine]
-    B --> C[Playwright Headless/Headed Browser]
-    C --> D[DOM Extractor & Interactive Filter]
-    D --> E{Multi-Provider AI Client}
-    E -->|Route 1| F[AIAura Gateway - [http://aiaura.me](http://aiaura.me)]
-    E -->|Route 2| G[OpenAI GPT-4o]
-    E -->|Route 3| H[Google Gemini 1.5/2.0]
-    E -->|Route 4| I[Custom Local vLLM / Ollama Proxy]
-    F & G & H & I --> J[Next Action: Click / Type / Assert / Finish]
-    J --> C
-    C --> K[Structured JSON Test Report]
